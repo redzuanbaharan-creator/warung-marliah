@@ -1,0 +1,11 @@
+# ============================================================
+# robots.txt — Warung Nasi Ambeng Hajah Marliah
+# ============================================================
+# Fail ini memberitahu enjin carian (Google, Bing, dll)
+# bahagian mana yang boleh atau tak boleh di-index.
+# ------------------------------------------------------------
+
+User-agent: *
+Allow: /
+
+Sitemap: https://warunghjhmarliah.envirovera.com/sitemap.xml
