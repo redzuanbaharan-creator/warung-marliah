@@ -1,0 +1,11 @@
+# Cloudflare Pages headers
+# three.js is pinned (vendor/three.module.min.js = r170); rename the file if you ever upgrade it.
+/vendor/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=604800
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
